@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
     s.vendored_frameworks = 'XPointSDK.xcframework'
     s.dependency 'BugfenderSDK', '~> 1.10.0'
-    s.swift_versions = '5.0'
+    s.swift_versions = '4.0'
   
     s.license = { :type => 'Copyright (c) 2020 - present, XPoint Services LLC', :text => <<-LICENSE
     This End User License Agreement (this "Agreement") is a binding agreement between XPoint Services LLC ("Licensor") and you ("You" or "Licensee").
